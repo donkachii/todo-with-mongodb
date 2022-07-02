@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.1"
+  },
+  "name": "todo-with-mongodb",
+  "description": "Todo task with mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donkachii/todo-with-mongodb.git"
+  },
+  "author": "Onyekachi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donkachii/todo-with-mongodb/issues"
+  },
+  "homepage": "https://github.com/donkachii/todo-with-mongodb#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
